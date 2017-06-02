@@ -1,0 +1,791 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>décima aplicación</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema-app10.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script> 
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    <script type="text/javascript">
+	
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+    
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/iphone2.png','imagenes/4.jpg','imagenes/11.jpg','imagenes/xx.jpg','imagenes/cc.jpg','imagenes/vv.jpg','imagenes/12.jpg')">
+
+<div data-role="page" id="Pagina">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DÍA DE LA TIERRA</h1>
+            </div>
+            <div data-role="main" class="ui-content" align="center">
+<div style="width:80%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="#Principal" target="_self" id="beep" data-role="button">
+<h2>IR AL INDEX</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://www.muyinteresante.es/cultura/recomendable/articulo/10-consejos-para-ser-ecologicos-en-casa-921479203234" data-role="button" id="vibrar">
+<h2>MÁS INFORMACIÓN</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div>
+<center><div><b>"El crecimiento económico y protección del medio ambiente no son compatibles. Son los lados opuestos de la misma moneda si buscas prosperidad a largo plazo."<br>Henry Paulson.</b></div></center>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/11.jpg',1)"><center>
+    <p><img src="imagenes/11.1.jpg" width="80%" id="Image4"></p>
+  </center></a>
+   </div>
+   
+    <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1><center>Datos del desarrollador</center></h1>
+            		<div>
+                    	      <div data-role="main" class="ui-content" align="center">
+									<div style="width:80%;">
+										<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+										<li class="ui-first-child ui-last-child">
+										<a href="#Desarrollador" target="_self" data-role="button" id="link">
+                                        <h2>Click aquí</h2> 
+                                        </a>
+                                        </li>
+                                        </ul>
+                               </div>
+                                	</div>
+                    </div>
+ 					<div></div>                       
+            </div>  
+            </div>  
+            </div> 
+  <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>CUIDEMOS AL PLANETA<br><br> 
+            	  Jorge Enrique Macias Cruz</h4>
+            </div>
+         </div>
+         
+</div>
+         
+<div data-role="page" id="Principal" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+        	<h1>DÍA DE LA TIERRA</h1>
+		</div>
+        <br>
+        <div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/7.png" alt="responsive slider" title="7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.png" alt="7"/>7</span></a>
+		<a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+        <br>
+          <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false" align="center">
+            	<h1><center>22 de Abril Día Mundial de la Tierra</center></h1>
+            		<div>
+                    	<p>Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento.<br>
+
+Con esta celebración admitimos la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar la harmonía con la naturaleza y la Madre Tierra para alcanzar el equilibrio justo entre las necesidades económicas, sociales y medioambientales de las generaciones presentes y futuras.</p>
+                    	<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','imagenes/xx.jpg',1)"><img src="imagenes/x.png" width="75%" id="Image48"></a></p>
+                    	
+
+
+                        <br>
+                    </div>
+ 					<div></div>                       
+            </div>     
+         </div> 
+           <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false" align="center">
+            	<h1><center>22 de Mayo Día Mundial Biodiversidad</center></h1>
+            		<div>
+                    	<p>Este día fue creado para "informar y concienciar a la población y a los Estados sobre las cuestiones relativas a la biodiversidad". La fecha se elijió por coincidir con el aniversario de la aprobación del Convenio sobre la Diversidad Biológica, firmado en 1992.</p>
+                    	<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','imagenes/cc.jpg',1)"><img src="imagenes/c.jpg" width="80%" id="Image47"></a></p>
+                    	
+            		</div>
+ 					<div></div>                       
+            </div>     
+         </div> 
+         <div>
+         <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false" align="center">
+            	<h1><center>Conciencia Ecológica</center></h1>
+            		<div>
+                    	<p>Tener una conciencia ecológica, es entender que somos dependientes de la naturaleza y responsables por su estado de conservación. Ignorar esta verdad equivale a autodestruirnos, porque al degradar el medio ambiente estamos empeorando nuestra calidad de vida y poniendo en peligro el futuro de nuestros descendientes.</p>
+                    	<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','imagenes/vv.jpg',1)"><img src="imagenes/v.jpg" width="80%"  id="Image49"></a></p>
+                    	
+
+                        <br>
+                    </div>
+ 					<div></div>                       
+            </div>     
+         </div> 
+         	<ul data-role="listview" data-theme="a" class="ui.listview ui-group-theme-a">
+            <li class="ui-first-child ui-last-child">
+            	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                	<h2>Días internacionales a favor del medio Ambiente </h2>
+                	<p>Descubre, cuales son los Días internacionales más importantes</p>
+                </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+            		<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                		<h2>Contaminación del suelo, agua y aire</h2>
+                		<p>Descubre algunos datos y estadísticas sobre la contaminación</p>
+                	</a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+            	 <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               		 <h2>Energías limpias y renovables</h2>
+               		 <p>Conoce algunas de las mejores energías limpias para consumo</p>
+               	 </a>
+            </li>
+			<li class="ui-first-child ui-last-child">
+            	 <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               		 <h2>Campañas para reducir contaminantes</h2>
+               		 <p>Conoce algunas campañas creadas en la CDMX contra contaminantes</p>
+               	 </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+            	 <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               		 <h2>Contaminación en Ciudad de México</h2>
+               		 <p>Conoce datos y estadísticas del estado actual de la Ciudad de México</p>
+               	 </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+            	 <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               		 <h2>Países más contaminados en el Mundo</h2>
+               		 <p>Descrubre cuales son los lugares más contaminados del mundo</p>
+               	 </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+            	 <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               		 <h2>La Biodiversidad y su daño</h2>
+               		 <p>Conoce algunas cifras y datos importantes de la Biodiversidad</p>
+               	 </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+            	 <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               		 <h2>Consecuencias Daño ambiental</h2>
+               		 <p>Conoce y asómbrate con algunos datos acerca del posible futuro<br> con contaminación</p>
+               	 </a>
+            </li>
+            </ul><br>
+         </div> 
+           <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>Para más información da click aquí:</h1>
+            		<div>
+                    	      <div data-role="main" class="ui-content" align="center">
+									<div style="width:90%;">
+										<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+										<li class="ui-first-child ui-last-child">
+										<a href="http://www.actitudfem.com/hogar/mamas/educacion/medio-ambiente12-datos-curiosos" data-role="button" id="link">
+                                        <h2> CURIOSIDADES </h2> 
+                                        </a>
+                                        </li>
+                                        <li class="ui-first-child ui-last-child">
+                                        <a href="http://www.muyinteresante.es/naturaleza/articulo/asi-afecto-el-accidente-de-chernobil-a-las-aves" data-role="button" id="vibrar">
+                                        <h2> Chernobyl Consecuencias </h2>
+                                        </a>
+                                        </li>
+                                        </ul>
+                               </div>
+                                	</div>
+                    </div>
+ 					<div></div>                       
+            </div>     
+         </div> 
+         <div>
+         <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/1.1.jpg" alt="1.1" title="1.1" id="wows2_0"/></li>
+		<li><img src="data2/images/2.2.jpg" alt="2.2" title="2.2" id="wows2_1"/></li>
+		<li><img src="data2/images/3.3.jpg" alt="3.3" title="3.3" id="wows2_2"/></li>
+		<li><img src="data2/images/4.4.jpg" alt="4.4" title="4.4" id="wows2_3"/></li>
+		<li><img src="data2/images/5.5.jpg" alt="5.5" title="5.5" id="wows2_4"/></li>
+		<li><img src="data2/images/6.6.jpg" alt="6.6" title="6.6" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/7.7.jpg" alt="image slider" title="7.7" id="wows2_6"/></a></li>
+		<li><img src="data2/images/8.8.jpg" alt="8.8" title="8.8" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1.1"><span><img src="data2/tooltips/1.1.jpg" alt="1.1"/>1</span></a>
+		<a href="#" title="2.2"><span><img src="data2/tooltips/2.2.jpg" alt="2.2"/>2</span></a>
+		<a href="#" title="3.3"><span><img src="data2/tooltips/3.3.jpg" alt="3.3"/>3</span></a>
+		<a href="#" title="4.4"><span><img src="data2/tooltips/4.4.jpg" alt="4.4"/>4</span></a>
+		<a href="#" title="5.5"><span><img src="data2/tooltips/5.5.jpg" alt="5.5"/>5</span></a>
+		<a href="#" title="6.6"><span><img src="data2/tooltips/6.6.jpg" alt="6.6"/>6</span></a>
+		<a href="#" title="7.7"><span><img src="data2/tooltips/7.7.jpg" alt="7.7"/>7</span></a>
+		<a href="#" title="8.8"><span><img src="data2/tooltips/8.8.jpg" alt="8.8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+         </div>
+         
+    <br>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         	<div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            <div>
+            	<h4>"CUIDEMOS AL PLANETA"</h4>
+                <h4>Jorge Enrique Macias Cruz</h4>
+            </div>
+            </div>
+         </div>
+         <div data-role="page" id="Desarrollador" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DÍA DE LA TIERRA</h1>
+            </div>
+             <div><br><br><br>
+              <b>DATOS DEL DESARROLLADOR:</b><br><br><br><br>
+              <b>Jorge Enrique Macías Cruz</b><br><br><br>
+              <b>4to Semestre Grupo "E"</b><br><br><br>
+              <b>Submódulo: Desarrolla Aplicaciones Móviles</b><br><br><br>
+             <b> Docente: José Antonio Gómez Hernández</b><br>
+              
+              </div>
+            </div>     
+  <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>CUIDEMOS AL PLANETA<br><br> 
+            	  Jorge Enrique Macias Cruz</h4>
+            </div>
+         <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+            <div data-role="content" align="center">
+				<div><h1>22 DE ABRIL<br>DÍA DE LA TIERRA</h1>
+                	<h3>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre.<br><br><img src="imagenes/XD.jpg" width="70%"><br><br>La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.<br>Actualmente esta celebración, esta siendo opacada en Los Estados Unidos de America, por Donald John Trump; así como lo ha hecho con diversos programas relacionados, en el corto tiempo que lleva en la presidencia de dicho país.</h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/A.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>   
+            <div>
+                	<h1>22 DE MAYO<br>DÍA MUNDIAL DIVERSIDAD BIOLÓGICA</h1>
+                	<h3>El Día Internacional de la Diversidad Biológica es una fecha que se celebra el 22 de mayo de cada año, por decisión de la Asamblea General de las Naciones Unidas del 20 de diciembre de 2000, en la Resolución 55/201.<br><br><img src="imagenes/LO.jpg" width="70%"><br><br>Este día fue creado para "informar y concienciar a la población y a los Estados sobre las cuestiones relativas a la biodiversidad". La fecha se elijió por coincidir con el aniversario de la aprobación del Convenio sobre la Diversidad Biológica, firmado en 1992.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/q.png" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				<h1>3 DE MARZO<br>DIA MUNDIAL DE LA NATURALEZA</h1>
+                	<h2>La Asamblea General de las Naciones Unidas decide proclamar el 3 de marzo Día Mundial de la Naturaleza.<br><br><img src="imagenes/D.jpg" width="70%"><br><br>El 20 de diciembre de 2013 la Asamblea General de las Naciones Unidas en la Resolución 68/205 "decide proclamar el 3 de marzo, día de la aprobación de la Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres, Día Mundial de la Naturaleza".</h2>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/N.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>  
+            <div>
+				<h1>22 DE MARZO<br>DIA MUNDIAL DEL AGUA</h1>
+                	<h2>El Día Mundial del Agua se propuso en la Conferencia de las Naciones Unidas para el Medio Ambiente y el Desarrollo efectuada en Río de Janeiro, Brasil del 3 al 14 de junio de 1992. Después de la cual, la Asamblea General de las Naciones Unidas adoptó el 22 de diciembre de 1992 la resolución A/RES/47/1931 que declaró el 22 de marzo de cada año como Día Mundial del Agua.</h2>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Aproximadamente el 71 % de la superficie terrestre está cubierta de agua, aunque aproximadamente solo el 2 % es potable (dulce), y por ello debe conservarse y cuidarse.
+</p>
+                    	<p><img src="imagenes/S.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+         </div>    -->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+         
+         
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+                   <div data-role="content" align="center">
+				<div><h1>CONTAMINACIÓN DEL AGUA</h1>
+                	<h3>La contaminación hídrica o la contaminación del agua es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.<br>
+Aunque la contaminación de las aguas puede provenir de fuentes naturales, como la ceniza de un volcán,2 la mayor parte de la contaminación actual proviene de actividades humanas.<br><br><img src="imagenes/PO.jpg" width="70%"><br><br>¿Qué contamina el agua?<br><br>
+-Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua provenientes de desechos orgánicos.<br>
+-Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas -bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.<br>
+-Sustancias químicas inorgánicas.- Acidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.<br>
+-Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).<br>
+-Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.<br>
+-Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.<br>
+-Sustancias radiactivas que pueden causar defectos congénitos y cáncer.<br>
+-Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.</h3><br><p><img src="imagenes/ccc.jpg" width="70%"></p>
+                </div>   
+            <div>
+                	<h1>CONTAMINACIÓN DEL SUELO</h1>
+                	<h3>La contaminación del suelo es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas.1 Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
+<br><br><img src="imagenes/P.jpg" width="70%"><br><br>Se habla de contaminación del suelo cuando se introducen sustancias o elementos de tipo sólido, líquido o gaseoso que ocasionan que se afecte la biota edáfica, las plantas, la vida animal y la salud humana.
+El suelo generalmente se contamina de diversas formas: cuando se rompen tanques de almacenamiento subterráneo, cuando se aplican pesticidas, por filtraciones del alcantarillado y pozos ciegos, o por acumulación directa de productos industriales o radioactivos.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Contaminación del suelo causada por depósitos subterráneos de almacenamiento de alquitrán.
+Los productos químicos más comunes incluyen derivados del petróleo, solventes, pesticidas y otros metales pesados. Este fenómeno está estrechamente relacionado con el grado de industrialización e intensidad del uso de productos químicos.</p>
+                    	<p><img src="imagenes/AL.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				                	<h1>CONTAMINACIÓN DEL AIRE</h1>
+                	<h3>La contaminación del aire es una mezcla de partículas sólidas y gases en el aire. Las emisiones de los automóviles, los compuestos químicos de las fábricas, el polvo, el polen y las esporas de moho pueden estar suspendidas como partículas. El ozono, un gas, es un componente fundamental de la contaminación del aire en las ciudades. Cuando el ozono forma la contaminación del aire también se denomina smog.
+<br><br><img src="imagenes/AI.jpg" width="70%"><br><br>Algunos contaminantes del aire son tóxicos. Su inhalación puede aumentar las posibilidades de tener problemas de salud. Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire. La polución del aire no ocurre solamente en el exterior: el aire en el interior de los edificios también puede estar contaminado y afectar su salud.
+<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/AII.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>-->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+</div>
+         
+         
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+                   <div data-role="content" align="center">
+				<div><h1>CONTAMINACIÓN DEL AGUA</h1>
+                	<h3>La contaminación hídrica o la contaminación del agua es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.<br>
+Aunque la contaminación de las aguas puede provenir de fuentes naturales, como la ceniza de un volcán,2 la mayor parte de la contaminación actual proviene de actividades humanas.<br><br><img src="imagenes/PO.jpg" width="70%"><br><br>¿Qué contamina el agua?<br><br>
+-Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua provenientes de desechos orgánicos.<br>
+-Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas -bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.<br>
+-Sustancias químicas inorgánicas.- Acidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.<br>
+-Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).<br>
+-Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.<br>
+-Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.<br>
+-Sustancias radiactivas que pueden causar defectos congénitos y cáncer.<br>
+-Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.</h3><br><p><img src="imagenes/ccc.jpg" width="70%"></p>
+                </div>   
+            <div>
+                	<h1>CONTAMINACIÓN DEL SUELO</h1>
+                	<h3>La contaminación del suelo es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas.1 Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
+<br><br><img src="imagenes/P.jpg" width="70%"><br><br>Se habla de contaminación del suelo cuando se introducen sustancias o elementos de tipo sólido, líquido o gaseoso que ocasionan que se afecte la biota edáfica, las plantas, la vida animal y la salud humana.
+El suelo generalmente se contamina de diversas formas: cuando se rompen tanques de almacenamiento subterráneo, cuando se aplican pesticidas, por filtraciones del alcantarillado y pozos ciegos, o por acumulación directa de productos industriales o radioactivos.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Contaminación del suelo causada por depósitos subterráneos de almacenamiento de alquitrán.
+Los productos químicos más comunes incluyen derivados del petróleo, solventes, pesticidas y otros metales pesados. Este fenómeno está estrechamente relacionado con el grado de industrialización e intensidad del uso de productos químicos.</p>
+                    	<p><img src="imagenes/AL.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				                	<h1>CONTAMINACIÓN DEL AIRE</h1>
+                	<h3>La contaminación del aire es una mezcla de partículas sólidas y gases en el aire. Las emisiones de los automóviles, los compuestos químicos de las fábricas, el polvo, el polen y las esporas de moho pueden estar suspendidas como partículas. El ozono, un gas, es un componente fundamental de la contaminación del aire en las ciudades. Cuando el ozono forma la contaminación del aire también se denomina smog.
+<br><br><img src="imagenes/AI.jpg" width="70%"><br><br>Algunos contaminantes del aire son tóxicos. Su inhalación puede aumentar las posibilidades de tener problemas de salud. Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire. La polución del aire no ocurre solamente en el exterior: el aire en el interior de los edificios también puede estar contaminado y afectar su salud.
+<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/AII.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>-->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+</div>
+         
+         
+        <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+                   <div data-role="content" align="center">
+				<div><h1>CONTAMINACIÓN DEL AGUA</h1>
+                	<h3>La contaminación hídrica o la contaminación del agua es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.<br>
+Aunque la contaminación de las aguas puede provenir de fuentes naturales, como la ceniza de un volcán,2 la mayor parte de la contaminación actual proviene de actividades humanas.<br><br><img src="imagenes/PO.jpg" width="70%"><br><br>¿Qué contamina el agua?<br><br>
+-Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua provenientes de desechos orgánicos.<br>
+-Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas -bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.<br>
+-Sustancias químicas inorgánicas.- Acidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.<br>
+-Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).<br>
+-Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.<br>
+-Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.<br>
+-Sustancias radiactivas que pueden causar defectos congénitos y cáncer.<br>
+-Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.</h3><br><p><img src="imagenes/ccc.jpg" width="70%"></p>
+                </div>   
+            <div>
+                	<h1>CONTAMINACIÓN DEL SUELO</h1>
+                	<h3>La contaminación del suelo es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas.1 Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
+<br><br><img src="imagenes/P.jpg" width="70%"><br><br>Se habla de contaminación del suelo cuando se introducen sustancias o elementos de tipo sólido, líquido o gaseoso que ocasionan que se afecte la biota edáfica, las plantas, la vida animal y la salud humana.
+El suelo generalmente se contamina de diversas formas: cuando se rompen tanques de almacenamiento subterráneo, cuando se aplican pesticidas, por filtraciones del alcantarillado y pozos ciegos, o por acumulación directa de productos industriales o radioactivos.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Contaminación del suelo causada por depósitos subterráneos de almacenamiento de alquitrán.
+Los productos químicos más comunes incluyen derivados del petróleo, solventes, pesticidas y otros metales pesados. Este fenómeno está estrechamente relacionado con el grado de industrialización e intensidad del uso de productos químicos.</p>
+                    	<p><img src="imagenes/AL.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				                	<h1>CONTAMINACIÓN DEL AIRE</h1>
+                	<h3>La contaminación del aire es una mezcla de partículas sólidas y gases en el aire. Las emisiones de los automóviles, los compuestos químicos de las fábricas, el polvo, el polen y las esporas de moho pueden estar suspendidas como partículas. El ozono, un gas, es un componente fundamental de la contaminación del aire en las ciudades. Cuando el ozono forma la contaminación del aire también se denomina smog.
+<br><br><img src="imagenes/AI.jpg" width="70%"><br><br>Algunos contaminantes del aire son tóxicos. Su inhalación puede aumentar las posibilidades de tener problemas de salud. Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire. La polución del aire no ocurre solamente en el exterior: el aire en el interior de los edificios también puede estar contaminado y afectar su salud.
+<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/AII.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>-->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+</div>
+        
+        <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+                   <div data-role="content" align="center">
+				<div><h1>CONTAMINACIÓN DEL AGUA</h1>
+                	<h3>La contaminación hídrica o la contaminación del agua es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.<br>
+Aunque la contaminación de las aguas puede provenir de fuentes naturales, como la ceniza de un volcán,2 la mayor parte de la contaminación actual proviene de actividades humanas.<br><br><img src="imagenes/PO.jpg" width="70%"><br><br>¿Qué contamina el agua?<br><br>
+-Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua provenientes de desechos orgánicos.<br>
+-Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas -bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.<br>
+-Sustancias químicas inorgánicas.- Acidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.<br>
+-Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).<br>
+-Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.<br>
+-Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.<br>
+-Sustancias radiactivas que pueden causar defectos congénitos y cáncer.<br>
+-Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.</h3><br><p><img src="imagenes/ccc.jpg" width="70%"></p>
+                </div>   
+            <div>
+                	<h1>CONTAMINACIÓN DEL SUELO</h1>
+                	<h3>La contaminación del suelo es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas.1 Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
+<br><br><img src="imagenes/P.jpg" width="70%"><br><br>Se habla de contaminación del suelo cuando se introducen sustancias o elementos de tipo sólido, líquido o gaseoso que ocasionan que se afecte la biota edáfica, las plantas, la vida animal y la salud humana.
+El suelo generalmente se contamina de diversas formas: cuando se rompen tanques de almacenamiento subterráneo, cuando se aplican pesticidas, por filtraciones del alcantarillado y pozos ciegos, o por acumulación directa de productos industriales o radioactivos.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Contaminación del suelo causada por depósitos subterráneos de almacenamiento de alquitrán.
+Los productos químicos más comunes incluyen derivados del petróleo, solventes, pesticidas y otros metales pesados. Este fenómeno está estrechamente relacionado con el grado de industrialización e intensidad del uso de productos químicos.</p>
+                    	<p><img src="imagenes/AL.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				                	<h1>CONTAMINACIÓN DEL AIRE</h1>
+                	<h3>La contaminación del aire es una mezcla de partículas sólidas y gases en el aire. Las emisiones de los automóviles, los compuestos químicos de las fábricas, el polvo, el polen y las esporas de moho pueden estar suspendidas como partículas. El ozono, un gas, es un componente fundamental de la contaminación del aire en las ciudades. Cuando el ozono forma la contaminación del aire también se denomina smog.
+<br><br><img src="imagenes/AI.jpg" width="70%"><br><br>Algunos contaminantes del aire son tóxicos. Su inhalación puede aumentar las posibilidades de tener problemas de salud. Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire. La polución del aire no ocurre solamente en el exterior: el aire en el interior de los edificios también puede estar contaminado y afectar su salud.
+<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/AII.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>-->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+</div>
+       
+        <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+                   <div data-role="content" align="center">
+				<div><h1>CONTAMINACIÓN DEL AGUA</h1>
+                	<h3>La contaminación hídrica o la contaminación del agua es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.<br>
+Aunque la contaminación de las aguas puede provenir de fuentes naturales, como la ceniza de un volcán,2 la mayor parte de la contaminación actual proviene de actividades humanas.<br><br><img src="imagenes/PO.jpg" width="70%"><br><br>¿Qué contamina el agua?<br><br>
+-Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua provenientes de desechos orgánicos.<br>
+-Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas -bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.<br>
+-Sustancias químicas inorgánicas.- Acidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.<br>
+-Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).<br>
+-Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.<br>
+-Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.<br>
+-Sustancias radiactivas que pueden causar defectos congénitos y cáncer.<br>
+-Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.</h3><br><p><img src="imagenes/ccc.jpg" width="70%"></p>
+                </div>   
+            <div>
+                	<h1>CONTAMINACIÓN DEL SUELO</h1>
+                	<h3>La contaminación del suelo es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas.1 Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
+<br><br><img src="imagenes/P.jpg" width="70%"><br><br>Se habla de contaminación del suelo cuando se introducen sustancias o elementos de tipo sólido, líquido o gaseoso que ocasionan que se afecte la biota edáfica, las plantas, la vida animal y la salud humana.
+El suelo generalmente se contamina de diversas formas: cuando se rompen tanques de almacenamiento subterráneo, cuando se aplican pesticidas, por filtraciones del alcantarillado y pozos ciegos, o por acumulación directa de productos industriales o radioactivos.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Contaminación del suelo causada por depósitos subterráneos de almacenamiento de alquitrán.
+Los productos químicos más comunes incluyen derivados del petróleo, solventes, pesticidas y otros metales pesados. Este fenómeno está estrechamente relacionado con el grado de industrialización e intensidad del uso de productos químicos.</p>
+                    	<p><img src="imagenes/AL.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				                	<h1>CONTAMINACIÓN DEL AIRE</h1>
+                	<h3>La contaminación del aire es una mezcla de partículas sólidas y gases en el aire. Las emisiones de los automóviles, los compuestos químicos de las fábricas, el polvo, el polen y las esporas de moho pueden estar suspendidas como partículas. El ozono, un gas, es un componente fundamental de la contaminación del aire en las ciudades. Cuando el ozono forma la contaminación del aire también se denomina smog.
+<br><br><img src="imagenes/AI.jpg" width="70%"><br><br>Algunos contaminantes del aire son tóxicos. Su inhalación puede aumentar las posibilidades de tener problemas de salud. Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire. La polución del aire no ocurre solamente en el exterior: el aire en el interior de los edificios también puede estar contaminado y afectar su salud.
+<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/AII.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>-->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+</div>
+        
+        <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+                   <div data-role="content" align="center">
+				<div><h1>CONTAMINACIÓN DEL AGUA</h1>
+                	<h3>La contaminación hídrica o la contaminación del agua es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.<br>
+Aunque la contaminación de las aguas puede provenir de fuentes naturales, como la ceniza de un volcán,2 la mayor parte de la contaminación actual proviene de actividades humanas.<br><br><img src="imagenes/PO.jpg" width="70%"><br><br>¿Qué contamina el agua?<br><br>
+-Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua provenientes de desechos orgánicos.<br>
+-Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas -bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.<br>
+-Sustancias químicas inorgánicas.- Acidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.<br>
+-Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).<br>
+-Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.<br>
+-Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.<br>
+-Sustancias radiactivas que pueden causar defectos congénitos y cáncer.<br>
+-Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.</h3><br><p><img src="imagenes/ccc.jpg" width="70%"></p>
+                </div>   
+            <div>
+                	<h1>CONTAMINACIÓN DEL SUELO</h1>
+                	<h3>La contaminación del suelo es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas.1 Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
+<br><br><img src="imagenes/P.jpg" width="70%"><br><br>Se habla de contaminación del suelo cuando se introducen sustancias o elementos de tipo sólido, líquido o gaseoso que ocasionan que se afecte la biota edáfica, las plantas, la vida animal y la salud humana.
+El suelo generalmente se contamina de diversas formas: cuando se rompen tanques de almacenamiento subterráneo, cuando se aplican pesticidas, por filtraciones del alcantarillado y pozos ciegos, o por acumulación directa de productos industriales o radioactivos.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Contaminación del suelo causada por depósitos subterráneos de almacenamiento de alquitrán.
+Los productos químicos más comunes incluyen derivados del petróleo, solventes, pesticidas y otros metales pesados. Este fenómeno está estrechamente relacionado con el grado de industrialización e intensidad del uso de productos químicos.</p>
+                    	<p><img src="imagenes/AL.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				                	<h1>CONTAMINACIÓN DEL AIRE</h1>
+                	<h3>La contaminación del aire es una mezcla de partículas sólidas y gases en el aire. Las emisiones de los automóviles, los compuestos químicos de las fábricas, el polvo, el polen y las esporas de moho pueden estar suspendidas como partículas. El ozono, un gas, es un componente fundamental de la contaminación del aire en las ciudades. Cuando el ozono forma la contaminación del aire también se denomina smog.
+<br><br><img src="imagenes/AI.jpg" width="70%"><br><br>Algunos contaminantes del aire son tóxicos. Su inhalación puede aumentar las posibilidades de tener problemas de salud. Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire. La polución del aire no ocurre solamente en el exterior: el aire en el interior de los edificios también puede estar contaminado y afectar su salud.
+<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/AII.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>-->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+</div>
+        
+        <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+         	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+            	<h1>DIA DE LA TIERRA</h1>
+            </div>
+                   <div data-role="content" align="center">
+				<div><h1>CONTAMINACIÓN DEL AGUA</h1>
+                	<h3>La contaminación hídrica o la contaminación del agua es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.<br>
+Aunque la contaminación de las aguas puede provenir de fuentes naturales, como la ceniza de un volcán,2 la mayor parte de la contaminación actual proviene de actividades humanas.<br><br><img src="imagenes/PO.jpg" width="70%"><br><br>¿Qué contamina el agua?<br><br>
+-Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua provenientes de desechos orgánicos.<br>
+-Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas -bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.<br>
+-Sustancias químicas inorgánicas.- Acidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.<br>
+-Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).<br>
+-Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.<br>
+-Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.<br>
+-Sustancias radiactivas que pueden causar defectos congénitos y cáncer.<br>
+-Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.</h3><br><p><img src="imagenes/ccc.jpg" width="70%"></p>
+                </div>   
+            <div>
+                	<h1>CONTAMINACIÓN DEL SUELO</h1>
+                	<h3>La contaminación del suelo es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas.1 Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
+<br><br><img src="imagenes/P.jpg" width="70%"><br><br>Se habla de contaminación del suelo cuando se introducen sustancias o elementos de tipo sólido, líquido o gaseoso que ocasionan que se afecte la biota edáfica, las plantas, la vida animal y la salud humana.
+El suelo generalmente se contamina de diversas formas: cuando se rompen tanques de almacenamiento subterráneo, cuando se aplican pesticidas, por filtraciones del alcantarillado y pozos ciegos, o por acumulación directa de productos industriales o radioactivos.<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p>Contaminación del suelo causada por depósitos subterráneos de almacenamiento de alquitrán.
+Los productos químicos más comunes incluyen derivados del petróleo, solventes, pesticidas y otros metales pesados. Este fenómeno está estrechamente relacionado con el grado de industrialización e intensidad del uso de productos químicos.</p>
+                    	<p><img src="imagenes/AL.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>
+            <div>
+				                	<h1>CONTAMINACIÓN DEL AIRE</h1>
+                	<h3>La contaminación del aire es una mezcla de partículas sólidas y gases en el aire. Las emisiones de los automóviles, los compuestos químicos de las fábricas, el polvo, el polen y las esporas de moho pueden estar suspendidas como partículas. El ozono, un gas, es un componente fundamental de la contaminación del aire en las ciudades. Cuando el ozono forma la contaminación del aire también se denomina smog.
+<br><br><img src="imagenes/AI.jpg" width="70%"><br><br>Algunos contaminantes del aire son tóxicos. Su inhalación puede aumentar las posibilidades de tener problemas de salud. Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire. La polución del aire no ocurre solamente en el exterior: el aire en el interior de los edificios también puede estar contaminado y afectar su salud.
+<br></h3>
+                </div>
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1></h1>
+            		<div>
+                    	<p></p>
+                    	<p><img src="imagenes/AII.jpg" width="70%"></p>
+                        <br>
+                    </div>                    
+            </div>-->
+            <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+            <div>
+            <br>
+            	<img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            	<h4>APP6 <br><br> JEMC</h4>
+            </div>
+         </div>
+</div>
+         
+
+
+
+       
+
+
+</body>
+</html>
